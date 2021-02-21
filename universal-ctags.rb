@@ -1,6 +1,8 @@
 class UniversalCtags < Formula
   desc "Maintained ctags implementation"
   homepage "https://github.com/universal-ctags/ctags"
+  url "https://github.com/universal-ctags/ctags/archive/p5.9.20210221.0.tar.gz"
+  sha256 "667489d69b410d000fae4e4645a43b03302b8e0b2af5f03b6aad6b4b9abcbe34"
   head "https://github.com/universal-ctags/ctags.git"
   option "without-xml", "Compile without libxml2"
   depends_on "autoconf" => :build
